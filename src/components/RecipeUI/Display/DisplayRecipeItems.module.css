@@ -16,4 +16,9 @@
   font-weight: bolder;
   text-align: center;
   margin: 0 4px;
+  transition: opacity 0.2s ease-in;
+}
+
+.action:hover {
+  opacity: 0.8;
 }

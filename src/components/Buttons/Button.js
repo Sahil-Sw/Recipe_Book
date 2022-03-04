@@ -12,7 +12,6 @@ const Button = (props) => {
       onDoubleClick={doubleClick}
       onClick={singleClick}
       className={classes.btn}
-      id={props.id}
     >
       {props.name}
     </button>

@@ -1,0 +1,30 @@
+.mainContainer {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  overflow-y: scroll;
+  color: #fff;
+  text-align: center;
+}
+
+.itemsContainer {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #fff;
+  width: 60%;
+  margin: auto;
+}
+
+.tableHeading {
+  display: flex;
+  justify-content: space-around;
+  border: solid 1px #fff;
+}
+
+.tableContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px #fff;
+}
