@@ -14,8 +14,10 @@ function App() {
   const context = useContext(RecipeBookContext);
 
   const getRecipeName = () => {
-    console.log(recipeName.current.value);
-    context.addRecipeName(recipeName.current.value);
+    const newRecipeName = recipeName.current.value
+      ? recipeName.current.value
+      : context.name;
+    context.addRecipeName(newRecipeName);
   };
 
   return (

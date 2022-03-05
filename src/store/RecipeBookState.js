@@ -2,7 +2,7 @@ import RecipeBookContext from "./RecipeBookContext";
 import { useState } from "react";
 const RecipeBookState = (props) => {
   const recipeState = {
-    name: "Blank",
+    name: "Recipe",
     recipeIngredients: [
       { id: 1, name: "Paneer", quantity: 0 },
       { id: 2, name: "Sausage", quantity: 0 },
